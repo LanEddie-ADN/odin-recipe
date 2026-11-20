@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odin Recipes</title>
+</head>
+<body>
+
+    <header>
+        <h1>My 3 Must-Try Favorite Recipes</h1>
+        <p>Welcome to my recipe website for ITE 10!</p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="recipes/garlic-butter-shrimp.html">Garlic Butter Shrimp</a> |
+            <a href="recipes/chicken-curry.html">Chicken Curry</a> |
+            <a href="recipes/pork-sisig.html">Pork Sisig</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- List of Recipes -->
+        <section>
+            <h2>Choose a Recipe</h2>
+            <ul>
+                <li><a href="recipes/garlic-butter-shrimp.html">Garlic Butter Shrimp</a></li>
+                <li><a href="recipes/chicken-curry.html">Chicken Curry</a></li>
+                <li><a href="recipes/pork-sisig.html">Pork Sisig</a></li>
+            </ul>
+        </section>
+
+        <!-- Table Requirement -->
+        <section>
+            <h2>Cooking Time Comparison</h2>
+            <table border="1">
+                <tr>
+                    <th>Recipe</th>
+                    <th>Prep Time</th>
+                    <th>Cook Time</th>
+                </tr>
+                <tr>
+                    <td>Garlic Butter Shrimp</td>
+                    <td>10 mins</td>
+                    <td>10 mins</td>
+                </tr>
+                <tr>
+                    <td>Chicken Curry</td>
+                    <td>15 mins</td>
+                    <td>35 mins</td>
+                </tr>
+                <tr>
+                    <td>Pork Sisig</td>
+                    <td>20 mins</td>
+                    <td>45 mins</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Feedback Form Requirement -->
+        <section>
+            <h2>Leave Feedback</h2>
+            <form>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="dish">Favorite Recipe:</label><br>
+                <select id="dish" name="dish">
+                    <option value="shrimp">Garlic Butter Shrimp</option>
+                    <option value="curry">Chicken Curry</option>
+                    <option value="sisig">Pork Sisig</option>
+                </select><br><br>
+
+                <label for="message">Your Comment:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                <button type="submit">Send Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Created for ITE 10 - Practical Exercise 5</p>
+    </footer>
+
+</body>
+</html>
